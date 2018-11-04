@@ -1,0 +1,23 @@
+body  {
+  padding-left: 10%;
+  padding-right: 10%
+}
+img {
+	margin: 10px;
+	left: 50%;
+}
+p {
+	font-family: 'Times New Roman';
+	font-size: 24pt;
+	text-align: center;
+}
+.cursiv {
+	font-style: italic;
+}
+.textCenter {
+	text-align: center;
+	}
+div {
+
+	text-align: center;
+}
