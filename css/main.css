@@ -4,12 +4,18 @@ body  {
 }
 img {
 	margin: 10px;
-	left: 50%;
-}
+	}
 p {
 	font-family: 'Times New Roman';
 	font-size: 24pt;
 	text-align: center;
+}
+.standart{ font-size: 14pt;
+text-align: left; }
+.zagolovok {
+font-family: 'Arial';
+font-size: 28pt;
+font-weight: 600;
 }
 .cursiv {
 	font-style: italic;
@@ -17,7 +23,25 @@ p {
 .textCenter {
 	text-align: center;
 	}
-div {
-
-	text-align: center;
+div {	text-align: center;}
+table {
+	border: 1px solid black;
+	margin: auto;
 }
+.tab2 {	table-layout: fixed;}
+.tab_border_none {
+	border: 3px;
+	border-collapse: collapse;
+	border-style: outset;
+}
+.col_100{	width:  100px;}
+.col_150{	width: 150px;}
+.col_230{	width: 230px;}
+.col_180{	width: 180px;}
+.col_330{	width: 330px;}
+.col_80 {	width: 80px;}
+.border_out {border-style: outset;}
+td {border: 1px solid black;}
+.margin {padding: 5pt;
+border: 2px solid gray;}
+th {border: 1px solid black;}
