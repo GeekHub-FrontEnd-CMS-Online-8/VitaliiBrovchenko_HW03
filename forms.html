@@ -13,6 +13,66 @@
 	<h2>Расскажите немного о себе...</h2>
 	<p class="standart">Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленые</p>
 	<br>
+	<form id="auth" action="www.blablabla.com" method="post">
+		<fieldset>
+			<legend><strong>Коротко о себе</strong></legend>
+			<p class="standart">Имя: <input type="text" name="First Name"></p>
+			<p class="standart">Фамилия: <input type="text" name="Last Name"></p>
+			<p class="standart">Пол:<input type="radio" name="male_gender" checked="">мужской<input type="radio" name="female_gender">женский</p>
+			<p class="standart">Возраст:<input type="text" name="age" size="3"> лет</p>
+		 </fieldset><br>
+		<fieldset>
+			<legend><srtong>Подробнее о себе</srtong></legend>
+			<p class="standart" class="margin"><input type="radio" name="male_gender" checked=""> Молодой человек</p>
+			<p class="standart" class="margin"><input type="radio" name="female_gender"> Девушка</p>
+			<p class="standart"><input type="text" name="date"> Дата рождения</p>
+			<p class="standart"><input type="text" name="marital_status"> Семейное положение</p>
+			<p class="standart"><input type="text" name="ststus"> Социальный статус</p>
+			<p class="standart"><input type="text" name="adress"> Местожительства</p>
+			<p class="standart_b">Что вы обычно делаете на выходных:</p>
+			<p class="standart"><input type="checkbox" name="sleep"> Сплю</p>
+			<p class="standart"><input type="checkbox" name="walk"> Гуляю с друзьями</p>
+			<p class="standart"><input type="checkbox" name="fishing"> Хожу на рыбалку</p>
+			<p class="standart"><input type="checkbox" name="game"> Играю в игры</p>
+			<p class="standart_b">Рассказать о формах в книге, посвященой HTML:</p>
+			<select name="HTML">
+				<option value="htmlbook">htmlbook.ru</option>
+				<option value="W3">W3.org</option>
+				<option value="w3shcools">w3shcools.com</option>
+				<option value="htmlacademy">htmlacademy.ru</option>
+			</select>
+			<p class="standart_b">Сколько книг Вы прочитали за свою жизнь:</p>
+			<p class="standart"><input type="radio" name="0-10"> 0 -  10</p>
+			<p class="standart"><input type="radio" name="11-20"> 11-20</p>
+			<p class="standart"><input type="radio" name="21-50"> 21 - 50</p>
+			<p class="standart"><input type="radio" name="50+"> 50 +</p>
+			<p class="standart_b">Ваши коментарии:</p>
+			<p class="standart"><textarea cols="50"  rows="15" name="comments"></textarea></p>
+			<select size="3" name="position">
+				<option  value="1">Первая позиция</option>
+				<option value="2" selected="">Вторая позиция</option>
+				<option value="3">Третья позиция</option>
+			</select>
+		</fieldset><br>
+		<fieldset>
+			<legend><strong>И в заключение</strong></legend>
+			<p class="standart"><input type="text" name="text" size="30" placeholder="Это поле было введено до Вас"></p>
+			<strong>Email:</strong>
+			<p class="standart"><input type="email"  size="30" name="email"></p>
+			<strong>Хотите подписаться на самую модную розсылку спама?</strong>
+			<p class="italic">Выберите категории</p>
+			<p class="standart"><input type="checkbox" name="equipment"> Оборудование</p>
+			<p class="standart"><input type="checkbox" name="food"> Как приготовить обеды</p>
+			<p class="standart"><input type="checkbox" name="million"> Заработай миллион за два дня!</p>
+			<strong>На сколько сложная задача:</strong>
+			<p class="standart"><input type="radio" name="nine" checked=""> Совсем нет</p>
+			<p class="standart"><input type="radio" name="sou/sou"> Так себе</p>
+			<p class="standart"><input type="radio" name="hard"> Еле справились</p>
+		</fieldset><br>
+	</form>	
+	<input type="submit" value="Отправить" form="auth">
+	<br>
+
 	<div><a href="tables.html">Таблицы</a></div>
 </body>
 </html>
